@@ -1,0 +1,37 @@
+.background    { background-image: url(https://get.pxhere.com/photo/sea-horizon-cloud-sky-sun-sunrise-sunset-morning-dawn-atmosphere-dusk-evening-afterglow-red-sky-at-morning-1404201.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(https://sftextures.com/wp-content/uploads/2015/05/xlava-texture-red-small-stones-on-hot-brigh-dangerous-ground-warm-material-bright-color-seamless-image-240x240.jpg.pagespeed.ic.anluOlhwOA.webp);}
+.wall          { background-image: url(https://images.pexels.com/photos/850796/pexels-photo-850796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940); }
+.floater       { background: rgb(50, 255, 150); }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(255, 215, 0); }
+.power   { background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/75/Tile_n_762.png);}
+.winner { background-image: url(https://cdn.pixabay.com/photo/2017/07/17/23/51/wormhole-2514312_960_720.jpg);}
+.hole { background-image: url(https://www.publicdomainpictures.net/pictures/210000/velka/tv-noise.jpg);
+        box-shadow: 0px 0px 16px black;}
+
+
+.player { background: rgb(224, 255, 255); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.losttwo .player {
+  background: rgb(255, 255, 255);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.lavaproof .player {
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/07/02/53/pattern-2825313_960_720.jpg);
+}
